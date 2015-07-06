@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEB00A351B4B158E004883E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB00A341B4B158E004883E0 /* main.m */; };
+		DEB00A381B4B158E004883E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB00A371B4B158E004883E0 /* AppDelegate.m */; };
+		DEB00A3B1B4B158E004883E0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB00A3A1B4B158E004883E0 /* MasterViewController.m */; };
+		DEB00A3E1B4B158E004883E0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB00A3D1B4B158E004883E0 /* DetailViewController.m */; };
+		DEB00A411B4B158E004883E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB00A3F1B4B158E004883E0 /* Main.storyboard */; };
+		DEB00A431B4B158E004883E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB00A421B4B158E004883E0 /* Assets.xcassets */; };
+		DEB00A461B4B158E004883E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB00A441B4B158E004883E0 /* LaunchScreen.storyboard */; };
+		DEB00A511B4B158E004883E0 /* iServerAdminTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB00A501B4B158E004883E0 /* iServerAdminTests.m */; };
+		DEB00A5C1B4B158E004883E0 /* iServerAdminUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB00A5B1B4B158E004883E0 /* iServerAdminUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEB00A4D1B4B158E004883E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEB00A281B4B158E004883E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB00A2F1B4B158E004883E0;
+			remoteInfo = iServerAdmin;
+		};
+		DEB00A581B4B158E004883E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEB00A281B4B158E004883E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB00A2F1B4B158E004883E0;
+			remoteInfo = iServerAdmin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEB00A301B4B158E004883E0 /* iServerAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iServerAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB00A341B4B158E004883E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEB00A361B4B158E004883E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEB00A371B4B158E004883E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEB00A391B4B158E004883E0 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		DEB00A3A1B4B158E004883E0 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		DEB00A3C1B4B158E004883E0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DEB00A3D1B4B158E004883E0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DEB00A401B4B158E004883E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEB00A421B4B158E004883E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEB00A451B4B158E004883E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEB00A471B4B158E004883E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB00A4C1B4B158E004883E0 /* iServerAdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iServerAdminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB00A501B4B158E004883E0 /* iServerAdminTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iServerAdminTests.m; sourceTree = "<group>"; };
+		DEB00A521B4B158E004883E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB00A571B4B158E004883E0 /* iServerAdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iServerAdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB00A5B1B4B158E004883E0 /* iServerAdminUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iServerAdminUITests.m; sourceTree = "<group>"; };
+		DEB00A5D1B4B158E004883E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEB00A2D1B4B158E004883E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB00A491B4B158E004883E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB00A541B4B158E004883E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEB00A271B4B158E004883E0 = {
+			isa = PBXGroup;
+			children = (
+				DEB00A321B4B158E004883E0 /* iServerAdmin */,
+				DEB00A4F1B4B158E004883E0 /* iServerAdminTests */,
+				DEB00A5A1B4B158E004883E0 /* iServerAdminUITests */,
+				DEB00A311B4B158E004883E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEB00A311B4B158E004883E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEB00A301B4B158E004883E0 /* iServerAdmin.app */,
+				DEB00A4C1B4B158E004883E0 /* iServerAdminTests.xctest */,
+				DEB00A571B4B158E004883E0 /* iServerAdminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEB00A321B4B158E004883E0 /* iServerAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				DEB00A361B4B158E004883E0 /* AppDelegate.h */,
+				DEB00A371B4B158E004883E0 /* AppDelegate.m */,
+				DEB00A391B4B158E004883E0 /* MasterViewController.h */,
+				DEB00A3A1B4B158E004883E0 /* MasterViewController.m */,
+				DEB00A3C1B4B158E004883E0 /* DetailViewController.h */,
+				DEB00A3D1B4B158E004883E0 /* DetailViewController.m */,
+				DEB00A3F1B4B158E004883E0 /* Main.storyboard */,
+				DEB00A421B4B158E004883E0 /* Assets.xcassets */,
+				DEB00A441B4B158E004883E0 /* LaunchScreen.storyboard */,
+				DEB00A471B4B158E004883E0 /* Info.plist */,
+				DEB00A331B4B158E004883E0 /* Supporting Files */,
+			);
+			path = iServerAdmin;
+			sourceTree = "<group>";
+		};
+		DEB00A331B4B158E004883E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEB00A341B4B158E004883E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEB00A4F1B4B158E004883E0 /* iServerAdminTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEB00A501B4B158E004883E0 /* iServerAdminTests.m */,
+				DEB00A521B4B158E004883E0 /* Info.plist */,
+			);
+			path = iServerAdminTests;
+			sourceTree = "<group>";
+		};
+		DEB00A5A1B4B158E004883E0 /* iServerAdminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEB00A5B1B4B158E004883E0 /* iServerAdminUITests.m */,
+				DEB00A5D1B4B158E004883E0 /* Info.plist */,
+			);
+			path = iServerAdminUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEB00A2F1B4B158E004883E0 /* iServerAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB00A601B4B158E004883E0 /* Build configuration list for PBXNativeTarget "iServerAdmin" */;
+			buildPhases = (
+				DEB00A2C1B4B158E004883E0 /* Sources */,
+				DEB00A2D1B4B158E004883E0 /* Frameworks */,
+				DEB00A2E1B4B158E004883E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iServerAdmin;
+			productName = iServerAdmin;
+			productReference = DEB00A301B4B158E004883E0 /* iServerAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEB00A4B1B4B158E004883E0 /* iServerAdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB00A631B4B158E004883E0 /* Build configuration list for PBXNativeTarget "iServerAdminTests" */;
+			buildPhases = (
+				DEB00A481B4B158E004883E0 /* Sources */,
+				DEB00A491B4B158E004883E0 /* Frameworks */,
+				DEB00A4A1B4B158E004883E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEB00A4E1B4B158E004883E0 /* PBXTargetDependency */,
+			);
+			name = iServerAdminTests;
+			productName = iServerAdminTests;
+			productReference = DEB00A4C1B4B158E004883E0 /* iServerAdminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEB00A561B4B158E004883E0 /* iServerAdminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB00A661B4B158E004883E0 /* Build configuration list for PBXNativeTarget "iServerAdminUITests" */;
+			buildPhases = (
+				DEB00A531B4B158E004883E0 /* Sources */,
+				DEB00A541B4B158E004883E0 /* Frameworks */,
+				DEB00A551B4B158E004883E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEB00A591B4B158E004883E0 /* PBXTargetDependency */,
+			);
+			name = iServerAdminUITests;
+			productName = iServerAdminUITests;
+			productReference = DEB00A571B4B158E004883E0 /* iServerAdminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEB00A281B4B158E004883E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Wesley de Groot";
+				TargetAttributes = {
+					DEB00A2F1B4B158E004883E0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DEB00A4B1B4B158E004883E0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DEB00A2F1B4B158E004883E0;
+					};
+					DEB00A561B4B158E004883E0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DEB00A2F1B4B158E004883E0;
+					};
+				};
+			};
+			buildConfigurationList = DEB00A2B1B4B158E004883E0 /* Build configuration list for PBXProject "iServerAdmin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEB00A271B4B158E004883E0;
+			productRefGroup = DEB00A311B4B158E004883E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEB00A2F1B4B158E004883E0 /* iServerAdmin */,
+				DEB00A4B1B4B158E004883E0 /* iServerAdminTests */,
+				DEB00A561B4B158E004883E0 /* iServerAdminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEB00A2E1B4B158E004883E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB00A461B4B158E004883E0 /* LaunchScreen.storyboard in Resources */,
+				DEB00A431B4B158E004883E0 /* Assets.xcassets in Resources */,
+				DEB00A411B4B158E004883E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB00A4A1B4B158E004883E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB00A551B4B158E004883E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEB00A2C1B4B158E004883E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB00A381B4B158E004883E0 /* AppDelegate.m in Sources */,
+				DEB00A3B1B4B158E004883E0 /* MasterViewController.m in Sources */,
+				DEB00A351B4B158E004883E0 /* main.m in Sources */,
+				DEB00A3E1B4B158E004883E0 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB00A481B4B158E004883E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB00A511B4B158E004883E0 /* iServerAdminTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB00A531B4B158E004883E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB00A5C1B4B158E004883E0 /* iServerAdminUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEB00A4E1B4B158E004883E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEB00A2F1B4B158E004883E0 /* iServerAdmin */;
+			targetProxy = DEB00A4D1B4B158E004883E0 /* PBXContainerItemProxy */;
+		};
+		DEB00A591B4B158E004883E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEB00A2F1B4B158E004883E0 /* iServerAdmin */;
+			targetProxy = DEB00A581B4B158E004883E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEB00A3F1B4B158E004883E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB00A401B4B158E004883E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEB00A441B4B158E004883E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB00A451B4B158E004883E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEB00A5E1B4B158E004883E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEB00A5F1B4B158E004883E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEB00A611B4B158E004883E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iServerAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdgwv.iServerAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEB00A621B4B158E004883E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iServerAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdgwv.iServerAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEB00A641B4B158E004883E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iServerAdminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdgwv.iServerAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iServerAdmin.app/iServerAdmin";
+			};
+			name = Debug;
+		};
+		DEB00A651B4B158E004883E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iServerAdminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdgwv.iServerAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iServerAdmin.app/iServerAdmin";
+			};
+			name = Release;
+		};
+		DEB00A671B4B158E004883E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iServerAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdgwv.iServerAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iServerAdmin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DEB00A681B4B158E004883E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iServerAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdgwv.iServerAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iServerAdmin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEB00A2B1B4B158E004883E0 /* Build configuration list for PBXProject "iServerAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB00A5E1B4B158E004883E0 /* Debug */,
+				DEB00A5F1B4B158E004883E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB00A601B4B158E004883E0 /* Build configuration list for PBXNativeTarget "iServerAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB00A611B4B158E004883E0 /* Debug */,
+				DEB00A621B4B158E004883E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEB00A631B4B158E004883E0 /* Build configuration list for PBXNativeTarget "iServerAdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB00A641B4B158E004883E0 /* Debug */,
+				DEB00A651B4B158E004883E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEB00A661B4B158E004883E0 /* Build configuration list for PBXNativeTarget "iServerAdminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB00A671B4B158E004883E0 /* Debug */,
+				DEB00A681B4B158E004883E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEB00A281B4B158E004883E0 /* Project object */;
+}
