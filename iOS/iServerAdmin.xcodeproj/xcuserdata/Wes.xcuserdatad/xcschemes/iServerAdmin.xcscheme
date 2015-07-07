@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DEB00A2F1B4B158E004883E0"
+               BlueprintIdentifier = "DE1DC13A1B4C242A005C7978"
                BuildableName = "iServerAdmin.app"
                BlueprintName = "iServerAdmin"
                ReferencedContainer = "container:iServerAdmin.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DEB00A4B1B4B158E004883E0"
+               BlueprintIdentifier = "DE1DC1561B4C242A005C7978"
                BuildableName = "iServerAdminTests.xctest"
                BlueprintName = "iServerAdminTests"
                ReferencedContainer = "container:iServerAdmin.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DEB00A561B4B158E004883E0"
+               BlueprintIdentifier = "DE1DC1611B4C242A005C7978"
                BuildableName = "iServerAdminUITests.xctest"
                BlueprintName = "iServerAdminUITests"
                ReferencedContainer = "container:iServerAdmin.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DEB00A2F1B4B158E004883E0"
+            BlueprintIdentifier = "DE1DC13A1B4C242A005C7978"
             BuildableName = "iServerAdmin.app"
             BlueprintName = "iServerAdmin"
             ReferencedContainer = "container:iServerAdmin.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DEB00A2F1B4B158E004883E0"
+            BlueprintIdentifier = "DE1DC13A1B4C242A005C7978"
             BuildableName = "iServerAdmin.app"
             BlueprintName = "iServerAdmin"
             ReferencedContainer = "container:iServerAdmin.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DEB00A2F1B4B158E004883E0"
+            BlueprintIdentifier = "DE1DC13A1B4C242A005C7978"
             BuildableName = "iServerAdmin.app"
             BlueprintName = "iServerAdmin"
             ReferencedContainer = "container:iServerAdmin.xcodeproj">
